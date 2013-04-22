@@ -307,7 +307,7 @@ color:#4a4a4a
 .top-slide .callout { /*COPIED*/
 	width: 860px;
 	text-align: center;
-	margin: 35px auto 80px;
+	margin: 35px auto 50px;
 
 
 }
@@ -324,7 +324,7 @@ color:#4a4a4a
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
-	margin-top: 22px;
+	margin-top: 32px;
 	border-radius: 5px;
 	padding: 0;
 	text-decoration: none;
@@ -396,7 +396,7 @@ nav.main img {
 }
 
 nav.home {
-
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -406,7 +406,7 @@ nav.home {
 .nav-links {
 	overflow: hidden;
 	float: left;
-	margin-left: 55px;
+	margin-left: 65px;
 }
 
 .nav-links li {
@@ -470,7 +470,7 @@ nav.home {
 	/*background-color: #fff;
 	background-color: #FAFAFA;*/
 	padding: 70px 0 75px;
-	 border-bottom: 1px solid #E0E0E0;
+
 }
 
 	.work-slide {
@@ -674,7 +674,6 @@ margin: auto;
 
 .contact-slide {
 	padding: 100px 0px;
-		 border-top: 1px solid #999;
 }
 
 .contact-slide .content {
@@ -715,7 +714,6 @@ input, textarea {
 	background-color: #fff;
 	padding: 4px 6px;
 	width: 100%;
-	margin-bottom: 15px;
 font: 16px 'Open Sans', helvetica, sans-serif;
 font-weight: 200;
 border-style: solid;
@@ -874,9 +872,8 @@ padding: 0px;
 	float: right;
 	/*clear: right;*/
 	margin-top: 0px;
-	margin-right: 3%;
-	list-style: none;
-	border: 1px solid red;
+	margin-right: 6%;
+	list-style: none:
 	}
 
 .iconnav li {
@@ -1114,26 +1111,6 @@ html[xmlns] .slides {display: block;}
 border: 1px solid blue;
 	}
 	
-	.iconnav {
-	/*width: 195px;*/
-	/*clear: right;*/
-	margin-right: 5%;
-	border: 1px solid blue;
-	}
-
-nav.home {
-		border: 1px solid blue;
-}
-
-.nav-links {
-	float: none;
-	margin: auto;
-	border: 1px solid red;
-	width: 420px;
-}
-
-	/*MUST FIX NAV*/
-	
 }
 
 
@@ -1152,31 +1129,6 @@ nav.home {
 	.nav-links {
 		display: none;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	/*nav.main img {
-	margin-top: 14px ;
-}
-
-nav.main img {
-	vertical-align: middle;
-	float: left;
-}*/
-	nav.main img {
-	vertical-align: middle;
-	float: none;
-		margin: 14px auto 0px;
-		border: 1px solid red;
-}
-	
-	
-	
 	
 	.single .flexslider {
 		margin-top: 20px;
@@ -1297,13 +1249,6 @@ nav.main img {
 		padding: 40px 0;
 	}
 	
-.worked-for li img {
-	width: 100%;
-	clear: both;
-	float: none;
-	margin: 0px auto;
-}
-	
 	.contact-slide {
 		padding: 40px 0;
 	}
@@ -1322,14 +1267,6 @@ nav.main img {
 	
 	.opt1 {
 		display: none;
-	}
-	
-	 .iconnav {
-	float: none;
-
-	margin: auto;
-
-	border: 1px solid red;
 	}
 }
 
